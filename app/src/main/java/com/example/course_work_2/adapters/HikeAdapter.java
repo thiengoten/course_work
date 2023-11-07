@@ -31,6 +31,8 @@ public class HikeAdapter extends RecyclerView.Adapter<HikeAdapter.HikeViewHolder
         appDatabase.hikeDao().deleteAll(hikes);
         hikes.clear();
         notifyDataSetChanged();
+
+        //test push
     }
 
 
