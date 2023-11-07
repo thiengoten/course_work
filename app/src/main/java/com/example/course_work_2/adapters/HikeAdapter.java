@@ -32,7 +32,7 @@ public class HikeAdapter extends RecyclerView.Adapter<HikeAdapter.HikeViewHolder
         hikes.clear();
         notifyDataSetChanged();
 
-        //test push
+        //test push 2
     }
 
 
